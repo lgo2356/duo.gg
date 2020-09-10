@@ -92,6 +92,7 @@ p {
 
 .navbar__menu {
   display: flex;
+  margin: 0px;
 }
 
 .navbar__logo {
@@ -112,4 +113,31 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-dark-pink);
+}
+
+/* Home */
+#home {
+  background-color: var(--color-dark-pink);
+}
+
+.wanted {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wanted__carry {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--color-yellow);
+}
+
+.wanted__supporter {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--color-blue);
+}
+
+/* Section common */
+.section {
+  padding: 50px;
 }
